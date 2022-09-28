@@ -1,6 +1,11 @@
+import random
 from tkinter import *
+import pandas as pd
 
 BACKGROUND_COLOR = "#B1DDC6"
+df = pd.read_csv("data/german_en.csv")
+lang_words = [df["German"]]
+translation = [df["English"]]
 
 window = Tk()
 window.title("Flash Cards")
