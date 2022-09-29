@@ -3,9 +3,8 @@ import random
 from word_picker import list_words
 
 BACKGROUND_COLOR = "#B1DDC6"
-
-word = ''
-lang_choice = ''
+word = {}
+lang_choice = {}
 
 
 def pick_word():
