@@ -1,4 +1,4 @@
-# flash_cards
+# flash_cards TO DO items
 1. When the user presses on the ✅ button, it means that they know the current word on the flashcard and that word should be removed from the list of words that might come up.
 
 e.g. If french_words.csv had only 3 records:
